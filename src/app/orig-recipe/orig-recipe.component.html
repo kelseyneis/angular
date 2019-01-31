@@ -1,0 +1,8 @@
+<div>
+  <p>Component Parent</p>
+<input [(ngModel)]="name">
+</div>
+<div>
+<p>Component Child </p>
+<app-recipe [name]="name"></app-recipe>
+</div>
