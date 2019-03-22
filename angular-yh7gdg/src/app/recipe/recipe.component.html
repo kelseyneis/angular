@@ -1,0 +1,17 @@
+<p>
+Flour<input (ngModelChange)="setNewRecipe($event, 'flour')" [(ngModel)]="flour"/>
+</p>
+<p>
+Water <input (ngModelChange)="setNewRecipe($event, 'water')"  [(ngModel)]="water"/>
+<p>
+  Water wt<input [(ngModel)]="waterWeight"/>
+</p>
+<p>
+  Flour prop<input [(ngModel)]="flourProp"/>
+</p>
+<p>
+ Water prop<input [(ngModel)]="waterProp"/>
+ </p>
+ <p>
+   Total wt<input (ngModelChange)="setNewRecipe($event, 'weight')" [(ngModel)]="totalWeight"/>
+</p>

@@ -1,0 +1,13 @@
+<div>
+  <p>Component Parent</p>
+  <p>
+Flour<input [(ngModel)]="flour"/>
+</p>
+<p>
+Water<input [(ngModel)]="water"/>
+</p>
+</div>
+<div>
+<p>Component Child </p>
+<app-recipe [flour]="flour" [water]="water" ></app-recipe>
+</div>
